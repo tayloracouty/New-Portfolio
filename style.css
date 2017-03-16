@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+.main-container {
+		font-family: 'Playfair Display', serif;
+}
+
+/*HEADER TEXT*/
+
+#header {
+		text-align: center;
+/*		margin-right: 500px;
+		margin-left: 500px; */
+}
+
+.headline {
+		font-size: 45px;
+		font-weight: 500;
+}
+
+.dek {
+	font-size: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #c7c7c7;
+}
+
+/*ARTICLE/MAIN CONTENT*/
+
+.article {
+	/*margin-left: 300px;
+	margin-right: 450px; */
+	font-size: 20px;
+	line-height: 2;
+}
+
+@media screen and (max-width: 980px) {
+
+       #pagewrap {
+       		width: 94%;
+       }
+       #content {
+       		width: 65%;
+       }
+       #sidebar {
+       		width: 30%;
+       }
+}
+
